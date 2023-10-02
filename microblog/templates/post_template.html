@@ -1,0 +1,13 @@
+<div class="message">
+    <div class="author">{{post.user.name}}</div>
+    <div class="text">{{ post.text}}</div>
+    <div class="metadata">
+        <span class="author">{{ post.user.name }}</span>
+        <span class="date">{{ post.timestamp }}</span>
+    </div>
+    <div class="reply_button">
+        <form>
+            <input type="button" value="Reply" id="post_button" name="post_button" ></input>
+        </form>
+    </div>
+</div>

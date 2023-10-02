@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    color: rgb(231, 161, 161);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+section {
+    padding: 6px;
+    margin: 6px;
+    color:rgb(255, 255, 255);
+}
+
+.message {
+    border: 2px solid;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+.message div{
+    margin: 4px;
+}
+
+.messages {
+    max-width: 400px; 
+    padding: 10px;
+    border: 1px solid;
+}
+
+.metadata {
+    font-size: 10px;
+}
+
+.post h4, .post h5, .post p {
+    margin: 4px;
+}
+
+
